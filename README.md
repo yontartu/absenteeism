@@ -1,66 +1,19 @@
-# Python Project Template
 
-This template is based on the [DSSG machine learning pipeline](https://github.com/dssg/hitchhikers-guide/tree/master/sources/curriculum/0_before_you_start/pipelines-and-project-workflow). 
+<h1 style="color:blue;"><center> Absenteeism at Work</center>
 
-Other useful resources:
-- [Cookiecutter data science](https://drivendata.github.io/cookiecutter-data-science/#directory-structure)
-- [Misha's blog post](https://medium.com/swlh/how-to-structure-a-python-based-data-science-project-a-short-tutorial-for-beginners-7e00bff14f56)
+  </h1>
 
-```
-├── LICENSE
-├── README.md          <- The top-level README for developers using this project.
-├── conf
-│   ├── base           <- Space for shared configurations like parameters
-│   └── local          <- Space for local configurations, usually credentials
-│
-├── data
-│   ├── 01_raw         <- Imutable input data
-│   ├── 02_intermediate<- Cleaned version of raw
-│   ├── 03_processed   <- The data used for modelling
-│   ├── 04_models      <- trained models
-│   ├── 05_model_output<- model output
-│   └── 06_reporting   <- Reports and input to frontend
-│
-├── docs               <- Space for Sphinx documentation
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is date YYYYMMDD (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `20190601-jqp-initial-data-exploration`.
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── results            <- Intermediate analysis as HTML, PDF, LaTeX, etc.
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── .gitignore         <- Avoids uploading data, credentials, outputs, system files etc
-│
-└── src                <- Source code for use in this project.
-    ├── __init__.py    <- Makes src a Python module
-    │
-    ├── d00_utils      <- Functions used across the project
-    │   └── remove_accents.py
-    │
-    ├── d01_data       <- Scripts to reading and writing data etc
-    │   └── load_data.py
-    │
-    ├── d02_intermediate<- Scripts to transform data from raw to intermediate
-    │   └── create_int_payment_data.py
-    │
-    ├── d03_processing <- Scripts to turn intermediate data into modelling input
-    │   └── create_master_table.py
-    │
-    ├── d04_modelling  <- Scripts to train models and then use trained models to make
-    │   │                 predictions
-    │   └── train_model.py
-    │
-    ├── d05_model_evaluation<- Scripts that analyse model performance and model selection
-    │   └── calculate_performance_metrics.py
-    │    
-    ├── d06_reporting  <- Scripts to produce reporting tables
-    │   └── create_rpt_payment_summary.py
-    │
-    └── d07_visualisation<- Scripts to create frequently used plots
-        └── visualise_patient_journey.py
-```
+<h2 style="color:blue;"> Descriptions of the repository</h2>
+
+
+
+## Data
+The data files can be found at [Kaggle](https://www.kaggle.com/chetnasureka/absenteeismatwork).
+
+
+
+## Notebook and Function
+The technical notebook is called 20190801-absenteeism-analysis.ipynb is in the master branch in the analysis file located in the notebook folder. The notebook can be found [here](https://nbviewer.jupyter.org/github/yontartu/absenteeism/blob/master/notebooks/02_analysis/20190801-absenteeism-analysis.ipynb).
+
+## Purpose of our repository
+The purpose of this analysis is to be able to predict which employee is more likely to miss work base off the feature of that employee. We are specially interested in looking at what features(reasons of absenteeism) will lead to an employee to miss work. We are therefore looking at dataset from 2007 to 2009  with the hopes of identifying key trend and to allow a nascent production company become successful. The link to our final presentation can be found [here](https://prezi.com/view/deejdJk7WvuyyC2gVlVp/).
