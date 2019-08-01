@@ -1,0 +1,54 @@
+\documentclass{report}
+\usepackage{booktabs}
+\begin{document}\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}                      &        y         & \textbf{  R-squared (uncentered):}      &     0.717   \\
+\textbf{Model:}                              &       OLS        & \textbf{  Adj. R-squared (uncentered):} &     0.704   \\
+\textbf{Method:}                             &  Least Squares   & \textbf{  F-statistic:       }          &     53.44   \\
+\textbf{Date:}                               & Wed, 31 Jul 2019 & \textbf{  Prob (F-statistic):}          & 4.73e-112   \\
+\textbf{Time:}                               &     12:25:52     & \textbf{  Log-Likelihood:    }          &   -1215.8   \\
+\textbf{No. Observations:}                   &         485      & \textbf{  AIC:               }          &     2476.   \\
+\textbf{Df Residuals:}                       &         463      & \textbf{  BIC:               }          &     2568.   \\
+\textbf{Df Model:}                           &          22      & \textbf{                     }          &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                             & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{Month\_of\_absence}                  &       0.2185  &        0.054     &     4.071  &         0.000        &        0.113    &        0.324     \\
+\textbf{Seasons}                             &       0.1599  &        0.143     &     1.122  &         0.263        &       -0.120    &        0.440     \\
+\textbf{Disciplinary\_failure}               &      -6.6585  &        0.648     &   -10.277  &         0.000        &       -7.932    &       -5.385     \\
+\textbf{medical\_consult\_dummy}             &      -2.5678  &        0.378     &    -6.798  &         0.000        &       -3.310    &       -1.825     \\
+\textbf{dental\_consult\_dummy}              &      -3.1759  &        0.413     &    -7.687  &         0.000        &       -3.988    &       -2.364     \\
+\textbf{genitourinary\_dummy}                &      -0.1665  &        0.963     &    -0.173  &         0.863        &       -2.060    &        1.727     \\
+\textbf{mon\_dummy}                          &       1.0212  &        0.428     &     2.387  &         0.017        &        0.181    &        1.862     \\
+\textbf{wed\_dummy}                          &       0.8421  &        0.422     &     1.994  &         0.047        &        0.012    &        1.672     \\
+\textbf{thu\_dummy}                          &       0.6013  &        0.441     &     1.363  &         0.173        &       -0.265    &        1.468     \\
+\textbf{fri\_dummy}                          &       0.1646  &        0.426     &     0.387  &         0.699        &       -0.672    &        1.001     \\
+\textbf{Social\_drinker}                     &       2.3243  &        0.348     &     6.680  &         0.000        &        1.641    &        3.008     \\
+\textbf{Social\_smoker}                      &       1.1558  &        0.598     &     1.932  &         0.054        &       -0.020    &        2.331     \\
+\textbf{Education}                           &       0.9709  &        0.198     &     4.897  &         0.000        &        0.581    &        1.361     \\
+\textbf{Son}                                 &       0.6020  &        0.139     &     4.337  &         0.000        &        0.329    &        0.875     \\
+\textbf{Pet}                                 &       0.0910  &        0.142     &     0.639  &         0.523        &       -0.189    &        0.371     \\
+\textbf{Transportation\_expense}             &       0.3935  &        0.174     &     2.261  &         0.024        &        0.051    &        0.736     \\
+\textbf{Distance\_from\_Residence\_to\_Work} &      -0.5194  &        0.197     &    -2.641  &         0.009        &       -0.906    &       -0.133     \\
+\textbf{Service\_time}                       &       0.0592  &        0.254     &     0.233  &         0.816        &       -0.440    &        0.559     \\
+\textbf{Age}                                 &      -0.3781  &        0.222     &    -1.706  &         0.089        &       -0.814    &        0.057     \\
+\textbf{Work\_load\_Average/day\_}           &       0.2983  &        0.153     &     1.954  &         0.051        &       -0.002    &        0.598     \\
+\textbf{Hit\_target}                         &       0.0109  &        0.166     &     0.066  &         0.947        &       -0.315    &        0.337     \\
+\textbf{Body\_mass\_index}                   &       0.2120  &        0.197     &     1.077  &         0.282        &       -0.175    &        0.599     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 114.134 & \textbf{  Durbin-Watson:     } &    1.960  \\
+\textbf{Prob(Omnibus):} &   0.000 & \textbf{  Jarque-Bera (JB):  } &  291.641  \\
+\textbf{Skew:}          &   1.165 & \textbf{  Prob(JB):          } & 4.69e-64  \\
+\textbf{Kurtosis:}      &   6.001 & \textbf{  Cond. No.          } &     54.9  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Warnings: \newline
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.\end{document}
